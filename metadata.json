@@ -1,0 +1,7 @@
+{
+  "name": "EventForce - Event Manpower Booking",
+  "description": "A high-performance manpower booking platform for event organizers and candidates, featuring a clean BlaBlaCar-inspired aesthetic, real-time job tracking, and seamless communication.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
