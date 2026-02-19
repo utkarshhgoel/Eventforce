@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-[#054752] antialiased;
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+@layer utilities {
+  /* Legacy classes used in App.tsx */
+  .blabla-blue {
+    color: #00AFF5;
+  }
+  .blabla-bg-blue {
+    background-color: #00AFF5;
+  }
+  .blabla-dark {
+    color: #054752;
+  }
+}
+
+/* Ensure smooth transitions for the app-like feel */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Hide scrollbars for a clean mobile-first UI */
+::-webkit-scrollbar {
+  display: none;
+}
